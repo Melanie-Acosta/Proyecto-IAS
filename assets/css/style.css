@@ -1,0 +1,205 @@
+/* archivo:stylecss. 
+proyecto: sitio web ias.
+Autor: Acosta Pia
+Fecha: 06/04/2026
+*/
+#titulo1{
+   text-align: : center;
+    margin-top: 60px;
+}
+/* text aling para alinear el texto
+margin top para dejar un espacio en la parte superior */
+#titulo2{
+    text-align: : center;
+    margin-top: 60px;
+}
+/* text aling para alinear el texto
+margin top para dejar un espacio en la parte superior */ 
+#mapa{
+    margin-top: 60px;
+}
+/* margin top para dejar un espacio en la parte superior */
+a hover {
+    background-color: #f1b4e7;
+}
+/* background color para establecer el color del fondo */
+h2{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+/* text aling para alinear el texto
+margin top para dejar un espacio en la parte superior
+margin bottom para dejar espacio en la parte inferior */
+nav { 
+    text-align: center;
+    word-spacing: 30px;
+    background-color: #ffffff;
+    font-weight: 90;
+    justify-content: center;
+    padding: 20px;
+   gap: 70px; ;
+}
+/* text align para centrar el texto
+word spacing para dejar espacio entre palabras
+font weight para el grosor de la letra
+background color para definir el fondo
+justify content para alinear el texto de manera horizontal
+padding espacio entre su contenido y el borde
+gap separacion entre elementos*/
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: linear-gradient(#f1b4e7,#f5f2f2);
+}
+/* font family definir el tipo de fuente
+background color de fondo< */
+ul{
+    margin-top: 20px;
+    padding: 0px;
+}
+/* margin top espacio en la parte superior
+padding espacio entre el contenido y su borde */
+li{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: left;
+}
+/* font family tipo de texto
+text aling ubicacion del texto */
+.funciones{
+    list-style-type: circle;
+    margin-top: 60px;
+}
+/* list style type modfificar el marcador de las listas */
+main{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* font family tipo de fuente */
+header{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}/*font family tipo de fuente */
+p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    text-align: left
+    line-height:1.5;
+}
+/* font family tipo de fuente
+font size tamaño de fuente
+text align ubicacion de texto
+line height tamaño de interlineado */
+h1{
+    background-color: #f5f1f4;
+    text-align: center;
+}
+/* background color se utiliza para el color de fondo
+text align ubicacion de texto */
+
+img { 
+    margin: left;
+    width: 50%;
+    border-radius: 12%
+}
+/* margin ubicacion de imagen
+width se utiliza para definir el tamaño de imagen
+border radius modifica los bordes de la magen */
+table,td,tr {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    border: 1px solid #000000;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    align-items: center;
+    justify-content:center;
+}
+/* margin top espacio en la parte superior
+margin bottom espacio en la parte inferior
+border para definir el contorno
+border collapse para unir los bordes de tabla
+align items para centrar los titulos de la tabla
+justify content centrar el contenido  */
+#Campo de mensaje{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+/* margin top espacio en la parte superior
+margin bottom 
+text align ubicacion del texto*/
+th{
+   text-align: center;
+    background-color: #ad5c92;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    border: 2px solid #000000;
+}
+/* text align centra el texto en la pagina
+background color cambia el color del fondo
+color modfica el color de texto
+padding espacio entre el contenido y su borde
+border modifica el color del borde  */
+figcaption{
+    text-align: center;
+    color: hsl(305, 68%, 60%);
+}
+/* text align ubicacion de texto
+color color de texto */
+h3{
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+/* text align ubicacion de texto
+margin top espacio en la parte superior
+margin bottom espacio en la parte inferior */
+footer{
+    text-align: center;
+    margin-top: 60px;
+}
+/* text align ubicacion de texto
+margin top espacio en la parte superior */
+div form[id="contact-form"]{
+    align-items: center;
+    gap: 15px;
+}
+/* alingn items ubicacion de items en la pagina
+gap distancia entre los elementos */
+input{
+    margin-top: 20px;
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #020000;
+    border-radius: 50px;
+}
+/* margin top espacio en la parte superior 
+padding espacio entre el contenido y su borde
+width definir tamaño
+border tamaño y color de los bordes
+border radius tipo de borde redondo  */
+select {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+}
+/* padding espacio entre el contenido y su borde
+with definimos el tamaño
+border tamaño y color de bordes
+border radius tipo de borde redondo */
+div form id="campo de mensaje" {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+/* margin top espacio en la parte superior
+margin bottom espacio en la parte inferior
+text align ubicacion de texto */
+div button {
+    margin: 0;
+    padding: 0;
+    border-radius: 50px;
+    background-color: rgb(199, 91, 202);
+}
+/* margin para definir el espacio por fuera de un elemento
+padding espacio entre el elemento y su borde
+border radius sirve para modificar la forma del borde
+background color utilizada para modificar los colores de fondo */
