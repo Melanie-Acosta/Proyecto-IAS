@@ -1,7 +1,1 @@
-#Proyecto IAS parte II
-**Alumno:** Acosta Pia Melanie
-**Materia:** Taller de lenguaje de programacion I
-**Año:**2026
-#Descripcion:
-Sitio web del instituto social (IAS) de Formosa.
-Proyecto desarrollado aplicando HTML semantico, CSS, Flexbox y Grid.
+
