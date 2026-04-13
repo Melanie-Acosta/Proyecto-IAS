@@ -156,7 +156,7 @@ form div {
 }
 label, input  {
     width: 100% !important;         
-    display: flex;       
+    display: block;       
     box-sizing: border-box;
     padding: 15px;
 }
