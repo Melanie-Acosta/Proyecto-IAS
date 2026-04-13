@@ -27,13 +27,16 @@ nav {
 padding: 5px;
     border-radius: 15px;
 }
-#nav{display: flex;
+#nav{
+    display: flex;
 justify-content: center;
     list-style: none;
     font-weight: 50%;
     gap: 150px;
     padding: auto 20px;
 }
+ /* display-flex para hacer mas facil modificar los elementos de esta.
+ justify-content: center utilizada para alinear el contenido*/
 #nav a {
     text-decoration: none;
 }
@@ -41,12 +44,14 @@ justify-content: center;
     white-space: nowrap !important;
     display: inline-block;
 }
+/*display: iniline-block y white-space utilizada para que los elementos permanezcan de manera horizontal */
 body{
     display: block;
     padding: 15px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background: linear-gradient(#f1b4e7,#f5f2f2);
 }
+/*display: block utilizada para ocupar todo el ancho*/
 ul{
     display: grid;
     grid-template-columns: 1fr 1fr; 
@@ -56,6 +61,7 @@ ul{
     padding: 0px;
     list-style-position: inside;
 }
+/* utilice display grid para poder definir mis columnas, el espacio entre ellas y ubicarla donde mas me guste */
 #pul {
     font-size: 30px;
     text-align: left;  
@@ -124,9 +130,12 @@ h3{
     margin-bottom: 15px;
 }
 footer{
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    margin-top: 60px;
+   padding: 25px;
 }
+/*utilize display flex para agrupar mis contenidos de manera flexible y flex direction para acomodarlo en columna*/
 div form[id="contact-form"]{
     align-items: center;
     gap: 15px;
@@ -149,17 +158,20 @@ form {
     flex-wrap: wrap;
     gap: 15px;
 }
+/*display flex agrupa los elementos dentro de esta y flex wrap permite que el contenido siga en una nueva fila si ya no tiene espacio*/
 form div {
     width: 100%;
     display: flex;
     flex-direction: column;
 }
+/*display flex agrupa los contenidos y flex direction modifica su contenido en columna*/
 label, input  {
     width: 100% !important;         
     display: block;       
     box-sizing: border-box;
     padding: 15px;
 }
+/*display block y with bloque que ocupa todo el ancho*/
 textarea {
     width: 100%;
     border-radius: 60px;
@@ -177,3 +189,5 @@ div button {
     grid-template-rows: auto auto 1fr auto;
     min-height: 100vh;
 }
+/*display grid y grid template row son utilizadas en conjunto para modificar filas y columnas al mismo tiempo y 
+poder cambiar sus valores (alto/ancho) de cada una*/ 
